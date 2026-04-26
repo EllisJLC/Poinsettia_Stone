@@ -250,7 +250,7 @@ export default function App() {
                   {Array.from({ length: 96 }, (_, i) => i + 5).map((val) => (
                     <div 
                       key={val} 
-                      className={`snap-center text-xl font-serif transition-colors shrink-0 h-8 flex items-center justify-center ${val === age ? 'text-indigo-400 font-bold scale-125' : 'text-slate-700 font-medium opacity-50'}`}
+                      className={`snap-center text-xl font-serif transition-colors shrink-0 h-8 flex items-center justify-center ${val === age ? 'text-indigo-400 font-bold scale-125' : 'text-purple-300 font-medium opacity-50'}`}
                     >
                       {val}
                     </div>

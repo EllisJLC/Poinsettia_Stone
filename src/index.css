@@ -26,19 +26,23 @@ body {
 }
 
 ::-webkit-scrollbar {
+  color:'#CBC3E3';
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
+  color:'#CBC3E3';
   background: var(--color-slate-950);
 }
 
 ::-webkit-scrollbar-thumb {
+  color:'#CBC3E3';
   background: var(--color-slate-800);
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
+  color:'#CBC3E3';
   background: var(--color-slate-700);
 }
 
